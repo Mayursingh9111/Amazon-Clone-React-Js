@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import offers from "../../../constant/Offers";
+
 import { Link } from "react-router-dom";
 const BannerBottomPart = () => {
   return (
@@ -12,7 +13,9 @@ const BannerBottomPart = () => {
           <h1 className="text-xl font-medium py-2">{offer.Head}</h1>
           <img src={offer.Img} alt="" />
           <Link to="/filter">
-            <p className="navigateButtonLinks text-base py-2">Shop now</p>
+            <p className="navigateButtonLinks  bg-yellow-400 shadow-sm text-black font-semibold px-4 py-2 text-sm rounded-lg w-24 ml-24 mt-4 ">
+              Shop now
+            </p>
           </Link>
         </div>
       ))}
@@ -20,9 +23,11 @@ const BannerBottomPart = () => {
         <h1 className="text-xl font-medium py-2">
           Sign in for your best experience
         </h1>
-        <button className="bg-yellow-400 shadow-sm text-black font-semibold px-4 py-2 text-sm rounded-lg w-full mt-auto">
-          Sign in Securely
-        </button>
+        <Link to="/signup">
+          <button className="bg-yellow-400 shadow-sm text-black font-semibold px-4 py-2 text-sm rounded-lg w-full mt-auto">
+            Sign in Securely
+          </button>
+        </Link>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
-import Image1 from "./../assets/images/OffferBanner/MensOffer.gif";
-import Image2 from "./../assets/images/OffferBanner/Womens.gif";
-import Image3 from "./../assets/images/OffferBanner/ElectronicItems-47b86d81.jpg";
+import Image1 from "./../assets/images/OfferBanner/MensOffer.gif";
+import Image2 from "./../assets/images/OfferBanner/Womens.gif";
+import Image3 from "./../assets/images/OfferBanner/ElectronicItems-47b86d81.jpg";
 
 const offers = [
   {
