@@ -150,10 +150,10 @@ const Header = () => {
 
       <section className="bg-[#232F3E]">
         {isDesktop && (
-          <div className="flex items-center text-white p-2">
+          <div className="flex items-center text-white p-2 mr-96 w-60">
             <button
               onClick={toggleMenu}
-              className="text-white focus:outline-none p-2 m-1 menu-button"
+              className="text-white focus:outline-none p-2 m-1  menu-button"
             >
               {isMenuOpen ? (
                 <CloseIcon />

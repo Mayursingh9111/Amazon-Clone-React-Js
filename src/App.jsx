@@ -4,11 +4,11 @@ import HeroSection from "./Components/HeroSection.jsx/HeroSection";
 import SignUp from "./pages/Registration/SignUp";
 import Cart from "./pages/Cart/Cart";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import MainfilterProductpage from "./Components/FilterProducts/MainfilterProductpage";
+import MainfilterProductpage from "./Components/FilterProducts/MainfilterProductpage";
 import Login from "./pages/Registration/Login";
 import ForgerPassOTP from "./pages/Registration/ForgerPassOTP";
 import MainCart from "./pages/Cart/MainCart";
-// import SignupTosti from "./pages/Registration/Tostify/SignupTosti";
+import SignupTosti from "./pages/Registration/Tostify/SignupTosti";
 function App() {
   return (
     <>
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/cart" element={<Cart />} />
-          {/* <Route path="/filter" element={<MainfilterProductpage />} /> */}
+          <Route path="/filter" element={<MainfilterProductpage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/maincart" element={<MainCart />} />
