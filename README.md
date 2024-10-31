@@ -1,8 +1,35 @@
-# React + Vite
+# Amazon Clone E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Hosted Link = https://amazon-clone-react-js-beta.vercel.app/
 
-Currently, two official plugins are available:
+#### This project is a simplified Amazon Clone built with React and Firebase, integrating the Amazon Product Data API to display real-time product listings. The platform allows users to browse products, add items to their cart, and authenticate through Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+#### Product Browsing: Displays a list of products from the Amazon Product Data API.
+#### Authentication: Firebase-based signup, login, and logout.
+#### Shopping Cart: Add, view, and remove products from the cart.
+
+## Tech Stack
+
+#### Frontend: React, CSS , Vite
+#### Backend: Firebase (Authentication)
+#### API: [Api](https://fakestoreapi.com)
+#### UI: CSS, TailwindCSS
+#### Version Control: Git & GitHub
+
+## Deployment
+
+#### This project can be deployed on Vercel or Netlify for hosting. Ensure environment variables are configured for production.
+
+## Project Components
+
+#### Header 
+#### Hero Section 
+#### Filter Product
+#### Login/Signup
+#### Cart
+#### Footer
+
+
+### Created By Mayur Singh Shekhawat
