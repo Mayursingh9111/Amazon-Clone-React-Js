@@ -6,30 +6,29 @@
 
 ## Features
 
-#### Product Browsing: Displays a list of products from the Amazon Product Data API.
-#### Authentication: Firebase-based signup, login, and logout.
-#### Shopping Cart: Add, view, and remove products from the cart.
+#### 1.Product Browsing: Displays a list of products from the Amazon Product Data API.
+#### 2.Authentication: Firebase-based signup, login, and logout.
+#### 3.Shopping Cart: Add, view, and remove products from the cart.
 
 ## Tech Stack
 
-#### Frontend: React, CSS , Vite
-#### Backend: Firebase (Authentication)
-#### API: [Api](https://fakestoreapi.com)
-#### UI: CSS, TailwindCSS
-#### Version Control: Git & GitHub
+#### 1.Frontend: React, CSS , Vite
+#### 2.Backend: Firebase (Authentication)
+#### 3.API: [Api](https://fakestoreapi.com)
+#### 4.UI: CSS, TailwindCSS
+#### 5.Version Control: Git & GitHub
+
+## Project Components
+
+#### 1.Header 
+#### 2.Hero Section 
+#### 3.Filter Product
+#### 4.Login/Signup
+#### 5.Cart
+#### 6.Footer
 
 ## Deployment
 
 #### This project can be deployed on Vercel or Netlify for hosting. Ensure environment variables are configured for production.
-
-## Project Components
-
-#### Header 
-#### Hero Section 
-#### Filter Product
-#### Login/Signup
-#### Cart
-#### Footer
-
 
 ### Created By Mayur Singh Shekhawat
